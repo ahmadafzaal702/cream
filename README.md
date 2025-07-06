@@ -1,4 +1,5 @@
 # Frontend Developer Assessment
+# Frontend Setup Steps
 
 ## Table of Contents
 
@@ -19,6 +20,8 @@
 Follow these steps to set up and run the frontend application locally.
 
 ### 1. Clone the Repository
+git clone [<repository-url>](https://github.com/ahmadafzaal702/cream)
+cd client/
 
 ### 2. Install Dependencies
 
@@ -28,6 +31,9 @@ Ensure you are in the `client/` directory, then install the necessary packages:
 npm install
 ```
 
+### 2.1 Install Mapbox specific packages with these versions
+npm install react-map-gl@7.0.17 mapbox-gl@2.15.0 @types/mapbox-gl@2.7.10
+
 ### 3. Configure Environment Variables
 
 Create a `.env` file in the root of the `client/` directory to specify the WebSocket server URL.
@@ -36,6 +42,8 @@ Create a `.env` file in the root of the `client/` directory to specify the WebSo
 # .env
 
 VITE_SOCKET_SERVER_URL=http://localhost:3000
+VITE_MAPBOX_ACCESS_TOKEN: Your Mapbox access token (get one at mapbox.com)
+
 ```
 
 - **VITE_SOCKET_SERVER_URL**: The URL where your NestJS backend WebSocket server is running.
