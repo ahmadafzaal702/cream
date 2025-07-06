@@ -1,0 +1,38 @@
+@use '../../styles/variables' as *;
+
+.error-message {
+  color: $color-bg;
+  background: $color-error-bg;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 400px;
+  letter-spacing: 0.5px;
+}
+
+.info-message {
+  color: $color-info-text;
+  background: $color-info-bg;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 400px;
+  letter-spacing: 0.5px;
+}
+
+.mapboxgl-popup .mapboxgl-popup-content .vehicle-popup-information {
+  margin-top: 0.5rem;
+  
+  display: flex;
+  gap:0.3rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
