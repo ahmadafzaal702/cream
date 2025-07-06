@@ -71,6 +71,20 @@ ready in x.xxx ms.
 
 Open your browser and navigate to [http://localhost:5173/](http://localhost:5173/) to view the application.
 
+01: Real Time Vehicle Map and Position with tracking path.
+<img width="960" alt="03" src="https://github.com/user-attachments/assets/4b693b41-6f10-448b-a744-30c246d00767" />
+
+02: Vehicle Popup to show the important information:  Plate number,  Current status, Average speed, Trip mileage
+<img width="960" alt="04" src="https://github.com/user-attachments/assets/18355aa4-8e10-4662-acb8-f47295029259" />
+
+03: Missing token or missing vehicle handling
+<img width="959" alt="02" src="https://github.com/user-attachments/assets/b569be63-832a-4527-a36a-3946d57cc8dc" />
+<img width="957" alt="01" src="https://github.com/user-attachments/assets/f97aa3d5-41a1-4a0d-b5d4-a78271d12fc4" />
+
+
+
+
+
 ## WebSocket Details
 
 ### WebSocket URL
